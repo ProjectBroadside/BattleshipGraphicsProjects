@@ -1,0 +1,52 @@
+2025-07-04 18:04:23,772 - INFO - Starting architectural code review for directory: E:\_ProjectBroadside\ProjectBroadside\Assets\Scripts
+2025-07-04 18:04:23,772 - INFO - Loading architectural context from: E:\_ProjectBroadside\ProjectBroadside\.docs
+2025-07-04 18:04:23,772 - INFO - Successfully loaded architectural documents.
+2025-07-04 18:04:23,772 - INFO - --- Starting Pass 1: Summarizing Individual Code Files ---
+2025-07-04 18:04:23,773 - INFO - Summarizing: .Replay\ReplayData.cs
+2025-07-04 18:04:23,773 - INFO - Skipping empty file: .Replay\ReplayData.cs
+2025-07-04 18:04:23,773 - INFO - Summarizing: .Replay\ReplayEventHooks.cs
+2025-07-04 18:04:23,773 - INFO - Skipping empty file: .Replay\ReplayEventHooks.cs
+2025-07-04 18:04:23,773 - INFO - Summarizing: .Replay\ReplayManager.cs
+2025-07-04 18:04:23,773 - INFO - Skipping empty file: .Replay\ReplayManager.cs
+2025-07-04 18:04:23,773 - INFO - Summarizing: .Replay\ReplayPlayer.cs
+2025-07-04 18:04:23,773 - INFO - Skipping empty file: .Replay\ReplayPlayer.cs
+2025-07-04 18:04:23,775 - INFO - Summarizing: .Replay\ReplayRecorder.cs
+2025-07-04 18:04:23,775 - INFO - Skipping empty file: .Replay\ReplayRecorder.cs
+2025-07-04 18:04:23,775 - INFO - Summarizing: .Replay\ReplayUI.cs
+2025-07-04 18:04:23,868 - INFO - Sending prompt to LLM. Estimated token count: ~2390 / 32768
+2025-07-04 18:04:41,082 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:41,082 - INFO - Summarizing: Components\FireControlComponents.cs
+2025-07-04 18:04:41,084 - INFO - Sending prompt to LLM. Estimated token count: ~126 / 32768
+2025-07-04 18:04:42,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:42,130 - INFO - Summarizing: Components\ProjectileComponents.cs
+2025-07-04 18:04:42,131 - INFO - Sending prompt to LLM. Estimated token count: ~140 / 32768
+2025-07-04 18:04:43,661 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:43,661 - INFO - Summarizing: Components\TorpedoComponents.cs
+2025-07-04 18:04:43,662 - INFO - Sending prompt to LLM. Estimated token count: ~143 / 32768
+2025-07-04 18:04:44,938 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:44,938 - INFO - Summarizing: Core\PoolManager.cs
+2025-07-04 18:04:44,938 - INFO - Sending prompt to LLM. Estimated token count: ~654 / 32768
+2025-07-04 18:04:47,624 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:47,624 - INFO - Summarizing: Queues\CommandType.cs
+2025-07-04 18:04:47,624 - INFO - Sending prompt to LLM. Estimated token count: ~112 / 32768
+2025-07-04 18:04:48,531 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:48,531 - INFO - Summarizing: Queues\FireRequestQueue.cs
+2025-07-04 18:04:48,532 - INFO - Sending prompt to LLM. Estimated token count: ~477 / 32768
+2025-07-04 18:04:50,437 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:50,437 - INFO - Summarizing: Queues\ShipCommandQueue.cs
+2025-07-04 18:04:50,445 - INFO - Sending prompt to LLM. Estimated token count: ~519 / 32768
+2025-07-04 18:04:52,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:52,272 - INFO - Summarizing: Systems\Physics\BuoyancyComponents.cs
+2025-07-04 18:04:52,273 - INFO - Sending prompt to LLM. Estimated token count: ~276 / 32768
+2025-07-04 18:04:54,836 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:04:54,837 - INFO - --- Pass 1 Complete: All files summarized. ---
+2025-07-04 18:04:54,837 - INFO - --- Starting Pass 2: Analyzing Implementation vs. Architecture ---
+2025-07-04 18:04:54,838 - INFO - Sending prompt to LLM. Estimated token count: ~2450 / 32768
+2025-07-04 18:05:11,454 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:05:11,455 - INFO - --- Pass 2 Complete: Architectural analysis finished. ---
+2025-07-04 18:05:11,455 - INFO - --- Starting Pass 3: Synthesizing Research Question for Knowledge Agent ---
+2025-07-04 18:05:11,456 - INFO - Sending prompt to LLM. Estimated token count: ~2080 / 32768
+2025-07-04 18:05:23,092 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-04 18:05:23,093 - INFO - --- Pass 3 Complete: Research question synthesized. ---
+2025-07-04 18:05:23,093 - INFO - Writing final report to .\architectural_review_report.md
+2025-07-04 18:05:23,093 - INFO - Report successfully generated.

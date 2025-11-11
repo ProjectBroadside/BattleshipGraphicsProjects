@@ -1,0 +1,64 @@
+# Core dependencies for 3D Gaussian Splatting training
+
+# PyTorch and related
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+scikit-image>=0.20.0
+
+# Image processing
+Pillow>=9.5.0
+opencv-python>=4.7.0
+imageio>=2.28.0
+imageio-ffmpeg>=0.4.8
+
+# 3D processing
+trimesh>=3.21.0
+open3d>=0.17.0
+plyfile>=0.9.0
+
+# Configuration and logging
+pyyaml>=6.0
+omegaconf>=2.3.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
+tqdm>=4.65.0
+tensorboard>=2.12.0
+
+# Optional: Weights & Biases integration
+# wandb>=0.15.0
+
+# Metrics
+lpips>=0.1.4
+pytorch-msssim>=1.0.0
+
+# Development tools
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0
+
+# CUDA extensions (install separately)
+# diff-gaussian-rasterization @ git+https://github.com/graphdeco-inria/diff-gaussian-rasterization.git@main#subdirectory=diff-gaussian-rasterization
+# simple-knn @ git+https://github.com/graphdeco-inria/gaussian-splatting.git@main#subdirectory=submodules/simple-knn
+
+# Optional accelerations
+# ninja>=1.11.0  # For faster CUDA compilation
+# cupy-cuda11x>=12.0.0  # GPU-accelerated operations
+
+# Data handling
+h5py>=3.8.0
+pandas>=2.0.0
+
+# Profiling and debugging
+# py-spy>=0.3.14
+# memory-profiler>=0.61.0
+# line-profiler>=4.0.0

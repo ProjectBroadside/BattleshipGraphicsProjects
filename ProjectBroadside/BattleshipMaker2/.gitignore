@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+
+# Models and checkpoints
+*.ply
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+
+# Large data files
+*.zip
+*.tar.gz
+*.7z
+
+# Large generated images and outputs
+01-image-generation/synthetic-outputs/
+02-dataset-preparation/datasets/
+03-3dgs-training/checkpoints/
+03-3dgs-training/outputs/
+04-splat-refinement/refined-models/
+05-mesh-conversion/converted-meshes/
+06-final-output/exports/
+06-final-output/renders/
+
+# Large images (keep small reference images)
+*_4k.*
+*_8k.*
+*_large.*
+*_generated.*
+*_synthetic.*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ComfyUI specific
+ComfyUI/
+*.png
+*.exr
+
+# Allow reference images but exclude large generated ones
+!01-image-generation/reference-images/**/*.jpg
+!01-image-generation/reference-images/**/*.jpeg
+!01-image-generation/reference-images/**/*.png
+
+# 3D files (except examples)
+*.obj
+*.fbx
+*.gltf
+*.glb
+*.stl
+*.dae
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large reference images (keep small examples)
+*_4k.*
+*_8k.*
+*_large.*
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Node modules (if any web components)
+node_modules/

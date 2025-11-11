@@ -1,0 +1,164 @@
+# Default configuration for 3D Gaussian Splatting training
+# Battleship reconstruction project
+
+# Model parameters
+model:
+  sh_degree: 3              # Spherical harmonics degree (0-4)
+  init_points: 100000       # Initial number of random points
+  max_gaussians: 5000000    # Maximum allowed Gaussians
+  init_opacity: 0.1         # Initial opacity value
+  init_scale_multiplier: 1.0 # Scale multiplier for initialization
+  scene_extent: 1.0         # Scene bounding box extent
+
+# Training parameters  
+training:
+  iterations: 30000         # Total training iterations
+  batch_size: 1            # Images per iteration
+  
+  # Position learning rate schedule
+  position_lr_init: 0.00016
+  position_lr_final: 0.0000016
+  position_lr_delay_mult: 0.01
+  position_lr_max_steps: 30000
+  
+  # Other learning rates
+  feature_lr: 0.0025        # Color/SH features
+  opacity_lr: 0.05          # Opacity values
+  scaling_lr: 0.005         # Scale parameters
+  rotation_lr: 0.001        # Rotation quaternions
+  
+  # Learning rate decay
+  lr_decay_start: 15000
+  lr_decay_exp: 0.95
+  
+  # Gradient clipping
+  gradient_clip_val: 0.0    # 0 = disabled
+  gradient_clip_norm_type: 2.0
+  
+  # Checkpointing
+  checkpoint_interval: 5000
+  save_interval: 5000
+  test_interval: 1000
+  
+  # Early stopping
+  early_stop_patience: 10
+  early_stop_min_delta: 0.0001
+  
+  # Mixed precision
+  use_fp16: false
+  amp_opt_level: "O1"
+
+# Densification parameters
+densification:
+  start_iter: 500           # When to start densification
+  end_iter: 15000          # When to stop densification
+  interval: 100            # How often to densify
+  
+  grad_threshold: 0.0002   # Gradient threshold for densification
+  size_threshold_scale: 0.01 # Size threshold (relative to scene)
+  
+  opacity_reset_interval: 3000
+  min_opacity: 0.005       # Minimum opacity before pruning
+  
+  # Advanced settings
+  densify_grad_clip: 0.0
+  densify_scale_clip: 0.0
+  max_screen_size: null
+  
+  # Adaptive thresholds
+  adaptive_grad_threshold: false
+  grad_threshold_scale_start: 1.0
+  grad_threshold_scale_end: 0.5
+
+# Loss function weights
+loss:
+  l1_weight: 0.8           # L1 reconstruction loss
+  ssim_weight: 0.2         # Structural similarity loss
+  lpips_weight: 0.0        # Perceptual loss (requires lpips)
+  
+  # Regularization
+  opacity_reg_weight: 0.0  # Opacity sparsity
+  scale_reg_weight: 0.0    # Scale regularization
+  
+  # Loss scheduling
+  use_loss_scheduling: false
+  ssim_start_iter: 1000
+  lpips_start_iter: 5000
+
+# Evaluation settings
+evaluation:
+  interval: 1000           # Evaluation frequency
+  num_test_images: 50      # Number of test images
+  
+  # Metrics
+  compute_psnr: true
+  compute_ssim: true
+  compute_lpips: false
+  
+  # Visualization
+  save_test_images: true
+  num_visualization_images: 5
+
+# Data settings
+data:
+  data_path: ""            # Path to dataset (required)
+  
+  # Resolution
+  resolution: null         # [width, height] or null for original
+  resolution_scale: 1.0    # Scale factor for all images
+  
+  # Data loading
+  num_workers: 4
+  pin_memory: true
+  cache_images: true
+  
+  # Augmentation
+  use_augmentation: false
+  augmentation_prob: 0.5
+  
+  # Background
+  white_background: false
+  
+  # Train/test split
+  train_split: 0.9
+  shuffle_data: true
+
+# Optimization settings
+optimization:
+  optimizer: "adam"
+  
+  # Adam parameters
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_eps: 1.0e-8
+  
+  # Weight decay
+  weight_decay: 0.0
+  
+  # Warmup
+  use_warmup: false
+  warmup_steps: 1000
+  
+  # Scheduler
+  scheduler: null          # Options: "step", "cosine", "exponential"
+  scheduler_params: {}
+
+# Experiment settings
+experiment_name: "battleship_3dgs"
+output_dir: "./outputs"
+seed: 42
+
+# Logging
+log_level: "INFO"
+tensorboard: true
+wandb: false
+wandb_project: "gaussian-splatting-battleship"
+
+# Ship-specific configurations (override in ship-specific configs)
+# bismarck_config.yaml example:
+# model:
+#   scene_extent: 2.0      # Larger scene for battleship
+# densification:
+#   grad_threshold: 0.0001 # More aggressive for fine details
+# training:
+#   iterations: 50000      # Extended training for quality
