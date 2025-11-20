@@ -1,0 +1,13 @@
+{
+    "batch_name": "gemini_api_test",
+    "image_index": 2,
+    "model_name": "gemini-2.5-pro",
+    "timestamp": 1753600233.6462328,
+    "prompt": "A photorealistic image of the German battleship Bismarck. Style: photorealistic, high detail, naval architecture. Negative keywords: cartoon, anime, low quality, blurry. Camera: distance=50m, height=10m, angle=90deg.",
+    "camera_settings": {
+        "distance": 50,
+        "height": 10,
+        "angle": 90
+    },
+    "generation_method": "gemini_enhanced"
+}

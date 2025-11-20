@@ -1,0 +1,47 @@
+# Ignore resolved and obsolete analysis reports
+**/resolved_*
+**/obsolete_*
+
+# Ignore common non-source files
+*.meta
+*.asset
+*.prefab
+*.unity
+*.mat
+*.fbx
+*.png
+*.jpg
+*.jpeg
+
+# Ignore build artifacts
+[Bb]uild/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+# Ignore VS/MD files
+.vs/
+*.userprefs
+*.user
+*.suo
+*.sln
+*.csproj
+
+# Ignore Unity generated files
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Ignore auto-generated code
+**/Generated/**
+
+# Ignore package manager files
+[Pp]ackages/*
+!**/packages/repositories.config
+
+# Ignore test files
+**/Tests/**
+**/TestResults/**
+
+# Ignore third-party dependencies
+**/ThirdParty/**
+**/Plugins/**

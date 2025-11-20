@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "battleship-image-generator"
+version = "0.1.0"
+description = "Battleship image generation using Google Gemini AI"
+authors = ["BattleshipMaker2"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "10.4.0"
+PyYAML = "6.0.1"
+google-generativeai = "0.3.2"
+requests = "2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

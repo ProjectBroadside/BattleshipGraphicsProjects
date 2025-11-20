@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "warship-extractor"
+version = "0.1.0"
+description = "A robust system for extracting warship illustrations from historical PDF documents using Florence-2"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "warship_extractor", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12.0"
+torch = "^2.0.0"
+torchvision = "^0.15.0"
+transformers = "^4.35.0"
+PyMuPDF = "^1.23.0"
+Pillow = "^10.0.0"
+einops = "^0.7.0"
+timm = "^0.9.2"
+accelerate = "^0.24.0"
+sentencepiece = "^0.1.99"
+protobuf = "^4.24.0"
+supervision = "^0.16.0"
+numpy = "^1.24.0"
+opencv-python = "^4.8.0"
+click = "^8.1.0"
+pydantic = "^2.0.0"
+pydantic-settings = "^2.0.0"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+black = "^23.0.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+mypy = "^1.5.0"
+pre-commit = "^3.3.0"
+
+[tool.poetry.scripts]
+warship-extract = "warship_extractor.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+extend-ignore = ['E203', 'W503']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=src/warship_extractor --cov-report=html --cov-report=term-missing"

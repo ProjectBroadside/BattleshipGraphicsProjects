@@ -1,0 +1,35 @@
+[\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/command_overview_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/command_overview_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/damage_overview_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/damage_overview_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/gunnery_overview_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/gunnery_overview_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/physics_overview_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/physics_overview_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/shipyard_overview_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/shipyard_overview_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_1 Code overview/Shipyard_Overview.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Shipyard_Overview.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/ArmorSystem_Summary.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/ArmorSystem_Summary.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/ArmorSystem.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/ArmorSystem.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/BuoyancySystem.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/BuoyancySystem.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/Comprehensive_Damage_System.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Comprehensive_Damage_System.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/FormationandMovement.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/FormationandMovement.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/HullDamageSystem.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/HullDamageSystem.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/Physicsplan626.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Physicsplan626.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/Shipyard UI summary.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Shipyard UI summary.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_2 Systems/TurretImplmentation627.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/TurretImplmentation627.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_3 Prompts and AGent items/AI_Agent_Gemini_CLI_Best_Practices_2025-06-29.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/AI_Agent_Gemini_CLI_Best_Practices_2025-06-29.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_3 Prompts and AGent items/Example script to make uynity in foreground.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Example script to make uynity in foreground.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_3 Prompts and AGent items/Prompts/Document consolidation prompt.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Document consolidation prompt.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_3 Prompts and AGent items/Prompts/DocumentationFramework.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/DocumentationFramework.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/_3 Prompts and AGent items/Prompts/Prompt for documentation maintenance.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Prompt for documentation maintenance.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Master Blueprint 0628.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Master Blueprint 0628.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/PIP feature implementation.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/PIP feature implementation.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Procedural_Generation_Code_Examples.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Procedural_Generation_Code_Examples.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Processflow.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Processflow.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Project_API_And_Dependency_Summary.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Project_API_And_Dependency_Summary.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Project_Broadside_Game_Features_and_Development_.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Project_Broadside_Game_Features_and_Development_.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/script_dependencies.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/script_dependencies.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Script_Summaries.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Script_Summaries.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Shipyard_Overview.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Shipyard_Overview.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/ToDoMaster.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/ToDoMaster.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Weather/Scene mood weather suggestions.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Scene mood weather suggestions.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Weather/Weather brainstorm.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Weather brainstorm.md"],\
+    ["C:/_Development/ProjectBroadside.Scripts/.Documentation/Weather/Weather implementation.md", "C:/_Development/ProjectBroadside.Scripts/.Documentation/Archive/Weather implementation.md"]\
+]

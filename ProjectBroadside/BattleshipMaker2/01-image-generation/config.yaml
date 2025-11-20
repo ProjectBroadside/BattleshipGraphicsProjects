@@ -1,0 +1,22 @@
+generation_model:
+  name: "gemini-2.5-pro"
+  temperature: 0.7
+  top_p: 0.9
+
+image_settings:
+  width: 1024
+  height: 1024
+  quality: "high"
+
+output_settings:
+  base_dir: "generated_images"
+  prefix: "bismarck"
+
+camera_poses:
+  distances: [50, 100, 150, 200, 300]
+  heights: [10, 25, 50, 75, 100]
+  angles: [0, 45, 90, 135, 180, 225, 270, 315]
+
+prompt_engineering:
+  style: "photorealistic, high detail, naval architecture"
+  negative: "cartoon, anime, low quality, blurry"

@@ -1,0 +1,15 @@
+{
+    "servers": {
+        "serena": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--directory",
+                "E:\\Serena MCP",
+                "serena-mcp-server",
+                "--port",
+                "8018"
+            ]
+        }
+    }
+}

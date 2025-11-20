@@ -1,0 +1,27 @@
+{
+  "name": "com.coldaine.mcp-unity-rockstar",
+  "displayName": "MCP Unity Rockstar",
+  "author": "Coldaine",
+  "version": "1.2.2",
+  "unity": "2022.3",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "unity",
+    "ai",
+    "assistant",
+    "editor",
+    "tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coldaine/MCPUnityRockstar.git"
+  },
+  "description": "MCP Unity Rockstar - Enhanced fork of MCP Unity with improved performance, simplified scene hierarchy, and better package management for AI-powered Unity development. Enables AI assistants (Claude, VS Code, Cursor) to interact with Unity Editor through Model Context Protocol with resource discovery and 8+ tools for scene manipulation, asset management, and testing.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.editorcoroutines": "1.0.0",
+	"com.unity.test-framework": "1.3.3"
+  },
+  "hideInEditor": false
+}
